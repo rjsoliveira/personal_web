@@ -13,15 +13,15 @@ education_page = st.Page(
     icon=":material/account_circle:",
 )
 
-projects_page = st.Page(
-    page="sections/projects.py",
-    title="Projects",
+project_cross_correlations_python = st.Page(
+    page="sections/projects/cross_correlations.py",
+    title="Cross correlations",
     icon=":material/account_circle:"
 )
 
 pg = st.navigation(
     {"About me": [intro_page, education_page],
-     "Projects": [projects_page]
+     "Projects": [project_cross_correlations_python]
      }
 )
 
