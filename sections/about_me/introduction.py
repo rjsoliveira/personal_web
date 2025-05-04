@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Introduction")
 
-# st.html("<hr style=\"width:100%;text-align:left;margin-left:0\">")
+st.html("<hr style=\"width:100%;text-align:left;margin-left:0\">")
 
 column1, column2 = st.columns(2, gap='small', vertical_alignment='center')
 
@@ -16,7 +16,7 @@ with column2:
 
     st.html("My interests range lie in turbomachinery design and analysis and in overall fluid mechanics and structural topics.")
 
-# st.html("<hr style=\"width:100%;text-align:left;margin-left:0\">")
+st.html("<hr style=\"width:100%;text-align:left;margin-left:0\">")
 
 st.html("With this page I intend to summarize my projects and previous experience and educational achievements. <br>"
         "I hope you enjoy it and feel free to contact me if you have any questions or comments!"
