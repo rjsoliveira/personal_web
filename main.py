@@ -1,10 +1,16 @@
 import streamlit as st
 
-about_me_page = st.Page(
-    page="sections/about_me.py",
-    title="About me",
+intro_page = st.Page(
+    page="sections/about_me/introduction.py",
+    title="Introduction",
     icon=":material/account_circle:",
     default=True
+)
+
+education_page = st.Page(
+    page="sections/about_me/education.py",
+    title="Education",
+    icon=":material/account_circle:",
 )
 
 projects_page = st.Page(
@@ -14,12 +20,9 @@ projects_page = st.Page(
 )
 
 pg = st.navigation(
-    {"About me": [about_me_page],
+    {"About me": [intro_page, education_page],
      "Projects": [projects_page]
      }
 )
-
-st.logo("assets/arancha_a_comer.jpg")
-st.sidebar.text("Made by Ricardo")
 
 pg.run()
