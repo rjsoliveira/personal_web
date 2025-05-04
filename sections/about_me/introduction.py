@@ -18,6 +18,7 @@ with column2:
 
 st.html("<hr style=\"width:100%;text-align:left;margin-left:0\">")
 
-st.html("With this page I intend to summarize my projects and previous experience and educational achievements. <br>"
-        "I hope you enjoy it and feel free to contact me if you have any questions or comments!"
+st.html("With this page I intend to summarize my projects and previous experience and educational achievements.")
+
+st.html("I hope you enjoy it and feel free to contact me if you have any questions or comments! <br>"
         "ricardooliv22@gmail.com")
