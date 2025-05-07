@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 
-st.title("Cross correlations")
+st.title("Project 1")
 
 time = np.linspace(0, 30, 500)
 s1 = np.sin(time)
