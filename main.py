@@ -41,11 +41,17 @@ project_cross_correlations_python = st.Page(
     icon=":material/account_circle:"
 )
 
+project_mode_shape = st.Page(
+    page="sections/projects/mode_shapes/mode_shapes.py",
+    title="Project 2",
+    icon=":material/account_circle:"
+)
+
 # NAVIGATION
 pg = st.navigation(
     {"About me": [intro_page, education_page, experience_page],
      "Publications": [publication_tandem, publication_orc],
-     "Projects": [project_cross_correlations_python]
+     "Projects": [project_cross_correlations_python, project_mode_shape]
      }
 )
 
