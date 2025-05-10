@@ -39,7 +39,7 @@ data_directory = r'sections\projects\mode_shapes\data'
 
 mode_shape_file_name = 'ModeShape_N55_Mode_2_ND_8_SuctionSide.csv'
 
-f = open(os.path.join(os.getcwd(), data_directory, mode_shape_file_name), 'r')
+f = open(os.path.join(os.getcwd(), os.path.normpath(data_directory), os.path.normpath(mode_shape_file_name)), 'r')
 mode_shape_lines = f.readlines()
 f.close()
 
