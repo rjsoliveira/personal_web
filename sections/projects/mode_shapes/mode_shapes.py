@@ -35,6 +35,7 @@ def get_xyz(fea_art_data):
     return np.array(fea_xyz_data)
 
 
+
 data_directory = os.path.join('sections', 'projects', 'mode_shapes', 'data')
 
 mode_shape_file_name = 'ModeShape_N55_Mode_2_ND_8_SuctionSide.csv'
