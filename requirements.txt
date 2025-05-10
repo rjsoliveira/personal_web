@@ -1,6 +1,6 @@
 streamlit~=1.45.0
 numpy~=2.0.2
 matplotlib~=3.9.2
+vtk>=9.4.0  # Explicitly enforce newer VTK first
 pyvista
 stpyvista
-vtk
